@@ -7,7 +7,7 @@
  * @noflow
  * @nolint
  * @preventMunge
- * @generated SignedSource<<527595023c636359dc05eac8fad80486>>
+ * @generated SignedSource<<fd33e791d6d79994657de38378711f92>>
  */
 
 "use strict";
@@ -12940,8 +12940,7 @@ __DEV__ &&
             (offscreenSubtreeWasHidden ||
               null === current ||
               safelyDetachRef(current, current.return));
-          enableEagerAlternateStateNodeCleanup &&
-            null !== finishedWork.alternate &&
+          null !== finishedWork.alternate &&
             (finishedWork.alternate.stateNode = finishedWork.stateNode);
           break;
         case 6:
@@ -18141,8 +18140,6 @@ __DEV__ &&
       enableEffectEventMutationPhase =
         dynamicFlagsUntyped.enableEffectEventMutationPhase,
       enableObjectFiber = dynamicFlagsUntyped.enableObjectFiber,
-      enableEagerAlternateStateNodeCleanup =
-        dynamicFlagsUntyped.enableEagerAlternateStateNodeCleanup,
       passChildrenWhenCloningPersistedNodes =
         dynamicFlagsUntyped.passChildrenWhenCloningPersistedNodes,
       enableFragmentRefs = dynamicFlagsUntyped.enableFragmentRefs,
@@ -21179,10 +21176,10 @@ __DEV__ &&
     (function () {
       var internals = {
         bundleType: 1,
-        version: "19.3.0-native-fb-900ae094-20260605",
+        version: "19.3.0-native-fb-68631c04-20260626",
         rendererPackageName: "react-native-renderer",
         currentDispatcherRef: ReactSharedInternals,
-        reconcilerVersion: "19.3.0-native-fb-900ae094-20260605"
+        reconcilerVersion: "19.3.0-native-fb-68631c04-20260626"
       };
       null !== extraDevToolsConfig &&
         (internals.rendererConfig = extraDevToolsConfig);
